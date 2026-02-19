@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+}
+
+header,
+footer,
+.hero {
+  background-color: #1f2937;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 200px;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  gap: 24px;
+}
+
+a,
+.hero-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.logo,
+.hero-main-text {
+  color: #f9faf8;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 100px 200px;
+}
+
+.hero-content {
+  flex-basis: 450px;
+}
+
+.hero-main-text,
+.hero-secondary-text {
+  margin-bottom: 12px;
+}
+
+.hero-main-text,
+.info-header {
+  font-weight: 900;
+}
+
+.hero-main-text {
+  font-size: 48px;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  border: 1px solid #3882f6;
+  cursor: pointer;
+  padding: 8px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+img {
+  flex: 1;
+}
+
+.random-info {
+  padding: 50px 200px 100px;
+}
+
+.info-header {
+  font-size: 36px;
+  color: #1f2937;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.info-container {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.info-item {
+  flex-basis: 170px;
+}
+
+.info-icon {
+  border: 4px solid #3882f6;
+  border-radius: 16px;
+  height: 150px;
+  margin-bottom: 8px;
+}
+
+.info-subtext {
+  color: #444;
+  text-align: center;
+}
+
+.quote {
+  padding: 100px 330px;
+  background-color: #e5e7eb;
+}
+
+blockquote {
+  display: flex;
+  flex-direction: column;
+}
+
+blockquote p {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+  margin: 0;
+}
+
+blockquote cite {
+  font-weight: bold;
+  font-size: 24px;
+  align-self: flex-end;
+  font-style: normal;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 32px 200px;
+}
