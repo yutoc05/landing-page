@@ -30,7 +30,9 @@ ul {
 }
 
 a,
-.hero-secondary-text {
+.hero-secondary-text,
+.call-to-action-secondary-text,
+footer {
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -74,14 +76,19 @@ main {
   font-size: 48px;
 }
 
-button {
+.sign-up-button {
   background-color: #3882f6;
   color: white;
-  border: 1px solid #3882f6;
+  border: 2px solid #3882f6;
   cursor: pointer;
-  padding: 8px 24px;
+  padding: 8px 32px;
   border-radius: 8px;
-  font-weight: 600;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.white-border {
+  border: 2px solid white;
 }
 
 img {
@@ -146,8 +153,31 @@ blockquote cite {
   font-style: normal;
 }
 
-footer {
+.call-to-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 200px;
+}
+
+.call-to-action-content {
+  background-color: #3882f6;
+  border-radius: 8px;
+  display: flex;
+  padding: 50px 100px;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.call-to-action-main-text {
   color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+footer {
   text-align: center;
   padding: 32px 200px;
 }
